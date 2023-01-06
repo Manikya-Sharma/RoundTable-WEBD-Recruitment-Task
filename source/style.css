@@ -1,0 +1,160 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  width:auto;
+  height: 100vh;
+  background: rgb(40, 200, 226);
+  background: linear-gradient(
+    50deg,
+    rgba(40, 200, 226, 0.7399626358695652) 35%,
+    rgba(32, 255, 52, 0.4177313320878623) 100%
+  );
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.container {
+  width:450px;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 2;
+  background-color: white;
+  padding: 20px;
+  padding-left:30px;
+  padding-bottom: 30px;
+  margin: auto;
+  margin-bottom: 7px;
+  box-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.container img {
+  display: inline;
+  margin-right: 3px;
+  height: 1.25em;
+  width: 1.25em;
+}
+
+.container header {
+  color: #555;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.container label{
+  font-size:0.85em;
+}
+
+.container form input {
+  font-size: 1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  background-color: inherit;
+  border-bottom: #999 solid 2px;
+  width: 80%;
+}
+
+.container form input:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.container form input:hover {
+  border-bottom:2px solid #555;
+}
+
+.container form input:focus {
+  border-bottom: 2px solid black;
+}
+
+.container form input:active {
+  border-bottom: 2px solid black;
+}
+
+.container p{
+  font-size:0.85em;
+}
+
+.container p a {
+  color: #1199ff;
+  text-decoration: none;
+}
+
+
+.container p a:link {
+  color: #1199ff;
+}
+
+
+.container p a:focus {
+  border: 1px dotted blue;
+}
+
+.container p a:hover {
+  text-decoration: underline;
+  color:#555;
+}
+
+.container p a:active {
+  color: blue;
+}
+
+.container p img{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.container .button-container{
+  text-align:right;
+}
+
+.container button {
+  border: 0;
+  background-color: #1565afe3;
+  color: white;
+  width: 25%;
+  padding: 10px;
+  border-color: #1565afe3;
+  border-radius: 0;
+}
+
+.container button:hover{
+  background-color: #104c83de;
+  border-color: #104c83de;
+}
+
+.other-options {
+  width: 450px;
+  text-align: left;
+  color:#777;
+  font-size: 1em;
+  background-color: white;
+  padding-left: 5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+  margin-bottom: 10px;
+  border:none;
+  box-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.other-options img{
+  height:1em;
+  width:1em;
+  margin-right: 5px;
+}
+
+.other-options:hover{
+  background-color: #ccc;
+  border-color:#ccc;
+}
+
+.other-options:active{
+  background-color: #eee;
+  color:#333;
+  outline: 1px dotted #888;
+}
