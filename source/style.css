@@ -2,7 +2,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   /*Prevent scroll-bars*/
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 body {
@@ -29,11 +29,12 @@ body {
   line-height: 2;
   background-color: white;
   padding: 20px;
-  /*left and bottom padding should be more prominent*/
+  /*left and top padding should be more prominent*/
   padding-left: 30px;
-  padding-bottom: 30px;
-  margin: auto;
-  margin-bottom: 7px;
+  padding-top: 30px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  margin-top:100px;
   box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -52,8 +53,8 @@ body {
 }
 
 /* The main heading and label */
-.container label {
-  font-size: 0.85em;
+.container label h1{
+  font-size: 1.5em;
 }
 
 /* Change default style of input */
@@ -63,8 +64,9 @@ body {
   padding-bottom: 5px;
   border: none;
   background-color: inherit;
-  border-bottom: #999 solid 2px;
-  width: 80%;
+  border-bottom: #999 solid 1px;
+  margin-bottom:20px;
+  width: 90%;
 }
 
 .container form input:focus-visible {
@@ -73,15 +75,19 @@ body {
 }
 
 .container form input:hover {
-  border-bottom: 2px solid #555;
+  border-bottom: 1px solid #555;
 }
 
 .container form input:focus {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid #1199ff;
+}
+
+.container form input:focus:hover {
+  border-bottom: 1px solid black;
 }
 
 .container form input:active {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 /* Text is smaller size */
@@ -125,17 +131,17 @@ body {
 /* Stylize submit button */
 .container button {
   border: 0;
-  background-color: #1565afe3;
+  background-color: #1437f8e3;
   color: white;
   width: 25%;
   padding: 10px;
-  border-color: #1565afe3;
+  border-color: #1437f8e3;
   border-radius: 0;
 }
 
 .container button:hover {
-  background-color: #104c83de;
-  border-color: #104c83de;
+  background-color: rgba(4, 29, 97, 0.871);
+  border-color: rgba(4, 29, 97, 0.871);
 }
 
 /* The last button for other options */
